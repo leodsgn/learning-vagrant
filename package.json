@@ -1,0 +1,26 @@
+{
+  "name": "studying_vagrant",
+  "version": "1.0.0",
+  "description": "Just stutying vagrant and loving it.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leodsgn/learning-vagrant.git"
+  },
+  "keywords": [
+    "vagrant",
+    "typescript",
+    "javascript",
+    "express",
+    "mongodb"
+  ],
+  "author": "https://github.com/leodsgn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leodsgn/learning-vagrant/issues"
+  },
+  "homepage": "https://github.com/leodsgn/learning-vagrant"
+}

@@ -67,11 +67,10 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get install -y python-software-properties python g++ make
-    add-apt-repository ppa:chris-lea/node.js
+    add-apt-repository -y ppa:chris-lea/node.js
     apt-get update
-    apt-get install nodejs
-    apt-get install npm
-    apt-get install build-essential
-    apt-get install git
+    apt-get -y install nodejs
+    apt-get -y install npm
+    apt-get -y install build-essential
    SHELL
 end
